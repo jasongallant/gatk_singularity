@@ -11,7 +11,7 @@ From: broadinstitute/gatk
 #%files
 #~/my_file /path/in/container
 
-#%post
+%post
 ################################################################################
 # Install additional login shells for users that need them
 ################################################################################
