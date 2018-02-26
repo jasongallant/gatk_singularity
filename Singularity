@@ -20,13 +20,13 @@ From: broadinstitute/gatk
 ################################################################################
 # Create directories to enable access to common HPCC mount points
 ################################################################################
-mkdir -p /mnt/home
-mkdir -p /mnt/research
-mkdir -p /mnt/dfs17
-mkdir -p /mnt/ffs17
-mkdir -p /mnt/local
-mkdir -p /mnt/ls15
-mkdir -p /opt/software
+sudo mkdir -p /mnt/home
+sudo mkdir -p /mnt/research
+sudo mkdir -p /mnt/dfs17
+sudo mkdir -p /mnt/ffs17
+sudo mkdir -p /mnt/local
+sudo mkdir -p /mnt/ls15
+sudo mkdir -p /opt/software
 
 ################################################################################
 # Run the user's login shell, or a user specified command
